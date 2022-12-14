@@ -4,9 +4,9 @@ import {Nav, Navbar, NavDropdown, Container } from 'react-bootstrap'
 const NavbarComponent = () => {
   return (
     <>
-      <Navbar bg="dark" variant="dark" expand="lg">
+      <Navbar expand="lg">
       <Container>
-        <Navbar.Brand href="#home">GM</Navbar.Brand>
+        <Navbar.Brand className="brand">GM</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
